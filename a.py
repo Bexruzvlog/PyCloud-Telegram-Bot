@@ -14,7 +14,7 @@ with open("obb.json","r",encoding="utf-8") as file1:
 with open("bolim.json","r",encoding="utf-8") as file2:
 	bolim=json.load(file2)
 ############################################################################
-bot_token="5232069570:AAEs9d-bSJSOx8V95ImR74duW7FNo0oHRvA"
+bot_token="Bot-Token"
 bot = telebot.TeleBot(bot_token)
 @bot.message_handler(commands=["start","help"])
 def start_help(message):
